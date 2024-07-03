@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>pointcloud_processor</name>
+  <license>xxx</license>
+  <version>0.0.0</version>
+  <description>ROS 2 package for processing PointCloud2 messages and publishing bounding boxes</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>libcurl</build_depend>
+  <build_depend>jsoncpp</build_depend>
+  <build_depend>tf2</build_depend>
+
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>libcurl</exec_depend>
+  <exec_depend>jsoncpp</exec_depend>
+  <exec_depend>tf2</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
